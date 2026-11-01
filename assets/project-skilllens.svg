@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="t d">
+<title id="t">SkillLens AI project card</title>
+<desc id="d">Card for SkillLens AI. An illustrative bar diagram of feature contributions pushing a prediction up or down, in the style of SHAP explanations. Status: exploratory.</desc>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#22D3EE" stroke-opacity=".07"/></pattern>
+</defs>
+<style>@media (prefers-reduced-motion: reduce){.anim{display:none}}</style>
+<rect width="960" height="260" rx="20" fill="#0D1117"/>
+<rect x=".5" y=".5" width="959" height="259" rx="19.5" fill="none" stroke="#232A45"/>
+<rect x="24" y="24" width="376" height="212" rx="14" fill="#080B17"/>
+<rect x="24" y="24" width="376" height="212" rx="14" fill="url(#grid)"/>
+<g transform="translate(24,24)" aria-hidden="true"><text x="188" y="26" text-anchor="middle" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#94A3B8">feature contribution</text><line x1="188" y1="38" x2="188" y2="182" stroke="#94A3B8" stroke-opacity=".5" stroke-dasharray="3 4"/><rect x="118" y="48" width="70" height="14" rx="7" fill="#A78BFA" fill-opacity=".85"/><rect x="188" y="72" width="48" height="14" rx="7" fill="#22D3EE" fill-opacity=".85"/><rect x="158" y="96" width="30" height="14" rx="7" fill="#A78BFA" fill-opacity=".85"/><rect x="188" y="120" width="88" height="14" rx="7" fill="#22D3EE" fill-opacity=".85"/><rect x="188" y="144" width="22" height="14" rx="7" fill="#22D3EE" fill-opacity=".85"/><rect x="132" y="168" width="56" height="14" rx="7" fill="#A78BFA" fill-opacity=".85"/><path d="M96 208 H300" stroke="#A78BFA" stroke-width="2"/><path d="M294 202 L302 208 L294 214" fill="none" stroke="#22D3EE" stroke-width="2"/><text x="188" y="202" text-anchor="middle" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#94A3B8">gap to recommendation</text></g>
+<rect x="440" y="52" width="48" height="5" rx="2.5" fill="url(#g)"/>
+<text x="440" y="118" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="46" font-weight="800" fill="#F8FAFC">SkillLens AI</text>
+<text x="440" y="154" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="21" fill="#94A3B8">Competency &amp; learning intelligence</text>
+<rect x="440" y="184" width="144" height="34" rx="17" fill="none" stroke="#22D3EE" stroke-opacity=".7"/>
+<circle cx="458" cy="201" r="5" fill="#22D3EE"/>
+<text x="472" y="207" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="600" fill="#F8FAFC">Exploratory</text></svg>

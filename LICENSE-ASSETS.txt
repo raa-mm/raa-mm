@@ -1,0 +1,12 @@
+Assets in /assets (SVG banners, project cards, technology chips and link buttons)
+were created for the GitHub profile raa-mm. All rights reserved by the repository
+owner unless the owner states otherwise.
+
+No third-party artwork is included. Technology names (Python, React, Shopify, etc.)
+are trademarks of their respective owners and are used only to name technologies in
+use. The chips contain text only, not official logos.
+
+The README references statistics images from third-party services
+(github-readme-stats, streak-stats) and uses the GitHub Actions
+Platane/snk and yoshi389111/github-profile-3d-contrib. Each is governed by its own
+licence and terms.

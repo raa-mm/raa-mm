@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="t d">
+<title id="t">RAM — AI Systems Engineer &amp; Full-Stack Developer</title>
+<desc id="d">Dark banner with the name RAM in a violet-to-cyan gradient, the title AI Systems Engineer and Full-Stack Developer, and a network of connected agent nodes with small pulses travelling between them.</desc>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#22D3EE" stroke-opacity=".07"/></pattern>
+<radialGradient id="glow" cx="0.8" cy="0.5" r="0.6"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".22"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+</defs>
+<style>@media (prefers-reduced-motion: reduce){.anim{display:none}}</style>
+<rect width="1000" height="360" rx="24" fill="#080B17"/>
+<rect width="1000" height="360" rx="24" fill="url(#grid)"/>
+<rect width="1000" height="360" rx="24" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="999" height="359" rx="23.5" fill="none" stroke="#232A45"/>
+<g aria-hidden="true">
+<circle cx="800" cy="180" r="70" fill="none" stroke="#A78BFA" stroke-opacity=".25" stroke-dasharray="3 7"/>
+<circle cx="800" cy="180" r="120" fill="none" stroke="#22D3EE" stroke-opacity=".12" stroke-dasharray="3 9"/>
+<line x1="800" y1="180" x2="640" y2="95" stroke="url(#g)" stroke-opacity=".55" stroke-width="1.5"/><line x1="800" y1="180" x2="900" y2="70" stroke="url(#g)" stroke-opacity=".55" stroke-width="1.5"/><line x1="800" y1="180" x2="940" y2="200" stroke="url(#g)" stroke-opacity=".55" stroke-width="1.5"/><line x1="800" y1="180" x2="700" y2="285" stroke="url(#g)" stroke-opacity=".55" stroke-width="1.5"/><line x1="800" y1="180" x2="880" y2="300" stroke="url(#g)" stroke-opacity=".55" stroke-width="1.5"/><line x1="640" y1="95" x2="700" y2="285" stroke="#8B5CF6" stroke-opacity=".25"/><line x1="900" y1="70" x2="940" y2="200" stroke="#22D3EE" stroke-opacity=".25"/><circle cx="640" cy="95" r="16" fill="#080B17" stroke="#A78BFA" stroke-width="2"/><circle cx="640" cy="95" r="5" fill="#A78BFA"/><circle cx="900" cy="70" r="14" fill="#080B17" stroke="#22D3EE" stroke-width="2"/><circle cx="900" cy="70" r="4" fill="#22D3EE"/><circle cx="940" cy="200" r="16" fill="#080B17" stroke="#A78BFA" stroke-width="2"/><circle cx="940" cy="200" r="5" fill="#A78BFA"/><circle cx="700" cy="285" r="14" fill="#080B17" stroke="#22D3EE" stroke-width="2"/><circle cx="700" cy="285" r="4" fill="#22D3EE"/><circle cx="880" cy="300" r="12" fill="#080B17" stroke="#A78BFA" stroke-width="2"/><circle cx="880" cy="300" r="4" fill="#A78BFA"/>
+<circle cx="800" cy="180" r="34" fill="#080B17" stroke="url(#g)" stroke-width="3"/>
+<circle cx="800" cy="180" r="12" fill="url(#g)"/>
+<circle class="anim" r="4.5" fill="#22D3EE"><animateMotion dur="3.6s" repeatCount="indefinite" path="M640,95 L800,180 L940,200"/></circle>
+<circle class="anim" r="4.5" fill="#A78BFA" opacity="0"><set attributeName="opacity" to="1" begin="1.8s"/><animateMotion dur="3.6s" begin="1.8s" repeatCount="indefinite" path="M700,285 L800,180 L900,70"/></circle>
+</g>
+<text x="60" y="176" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="156" font-weight="800" letter-spacing="6" fill="url(#g)">RAM</text>
+<rect x="64" y="204" width="120" height="4" rx="2" fill="url(#g)"/>
+<text x="64" y="256" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="600" fill="#F8FAFC">AI Systems Engineer</text>
+<text x="64" y="296" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="500" fill="#94A3B8">&amp; Full-Stack Developer</text></svg>

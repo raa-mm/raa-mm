@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="t d">
+<title id="t">APRS project card</title>
+<desc id="d">Card for APRS, the Autonomous Product Research System. A diagram shows a source feeding three research agents for market, sourcing and economics, merging into a decision node. Status: in development.</desc>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#22D3EE" stroke-opacity=".07"/></pattern>
+</defs>
+<style>@media (prefers-reduced-motion: reduce){.anim{display:none}}</style>
+<rect width="960" height="260" rx="20" fill="#0D1117"/>
+<rect x=".5" y=".5" width="959" height="259" rx="19.5" fill="none" stroke="#232A45"/>
+<rect x="24" y="24" width="376" height="212" rx="14" fill="#080B17"/>
+<rect x="24" y="24" width="376" height="212" rx="14" fill="url(#grid)"/>
+<g transform="translate(24,24)" aria-hidden="true"><path d="M38 106 C56 106 54 48 70 48" fill="none" stroke="#A78BFA" stroke-opacity=".6"/><path d="M154 48 C176 48 180 106 194 106" fill="none" stroke="#22D3EE" stroke-opacity=".6"/><path d="M38 106 C56 106 54 106 70 106" fill="none" stroke="#A78BFA" stroke-opacity=".6"/><path d="M154 106 C176 106 180 106 194 106" fill="none" stroke="#22D3EE" stroke-opacity=".6"/><path d="M38 106 C56 106 54 164 70 164" fill="none" stroke="#A78BFA" stroke-opacity=".6"/><path d="M154 164 C176 164 180 106 194 106" fill="none" stroke="#22D3EE" stroke-opacity=".6"/><rect x="70" y="34" width="84" height="28" rx="8" fill="#0D1117" stroke="#A78BFA"/><text x="112" y="53" text-anchor="middle" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#F8FAFC">market</text><rect x="70" y="92" width="84" height="28" rx="8" fill="#0D1117" stroke="#A78BFA"/><text x="112" y="111" text-anchor="middle" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#F8FAFC">sourcing</text><rect x="70" y="150" width="84" height="28" rx="8" fill="#0D1117" stroke="#A78BFA"/><text x="112" y="169" text-anchor="middle" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#F8FAFC">economics</text><circle cx="28" cy="106" r="10" fill="#080B17" stroke="#A78BFA" stroke-width="2"/><circle cx="28" cy="106" r="4" fill="#A78BFA"/><circle cx="206" cy="106" r="13" fill="#080B17" stroke="#22D3EE" stroke-width="2"/><path d="M219 106 H278" stroke="#A78BFA" stroke-width="2"/><path d="M300 86 L320 106 L300 126 L280 106 Z" fill="#080B17" stroke="url(#g)" stroke-width="2"/><path d="M300 98 V114 M292 106 H308" stroke="#22D3EE" stroke-width="2"/><text x="300" y="158" text-anchor="middle" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#94A3B8">decide</text><circle class="anim" r="4" fill="#22D3EE"><animateMotion dur="3s" repeatCount="indefinite" path="M28,106 C56,106 54,106 112,106 L206,106 L300,106"/></circle></g>
+<rect x="440" y="52" width="48" height="5" rx="2.5" fill="url(#g)"/>
+<text x="440" y="118" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="46" font-weight="800" fill="#F8FAFC">APRS</text>
+<text x="440" y="154" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="21" fill="#94A3B8">Autonomous Product Research System</text>
+<rect x="440" y="184" width="174" height="34" rx="17" fill="none" stroke="#8B5CF6" stroke-opacity=".7"/>
+<circle cx="458" cy="201" r="5" fill="#8B5CF6"/>
+<text x="472" y="207" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="600" fill="#F8FAFC">In development</text></svg>

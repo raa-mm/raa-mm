@@ -1,0 +1,49 @@
+name: Profile 3D contribution graph
+
+on:
+  schedule:
+    - cron: "47 2 * * *"   # daily, 02:47 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: profile-3d
+  cancel-in-progress: true
+
+permissions:
+  contents: write   # needed to commit generated SVGs into profile-3d-contrib/
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution SVGs
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Check the file used by README.md exists
+        run: |
+          if [ ! -s profile-3d-contrib/profile-night-view.svg ]; then
+            echo "::error::profile-night-view.svg was not generated. Files present:"
+            ls -la profile-3d-contrib || true
+            echo "::error::Update the image path in README.md to a file that exists."
+            exit 1
+          fi
+
+      - name: Commit generated files
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          if git diff --cached --quiet; then
+            echo "3D output unchanged; nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: update 3D contribution graph"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

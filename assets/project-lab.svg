@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="t d">
+<title id="t">Engineering Lab card</title>
+<desc id="d">Card for the Engineering Lab. A terminal window listing the verbs automate, integrate, extract and prototype. Status: ongoing.</desc>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#22D3EE" stroke-opacity=".07"/></pattern>
+</defs>
+<style>@media (prefers-reduced-motion: reduce){.anim{display:none}}</style>
+<rect width="960" height="260" rx="20" fill="#0D1117"/>
+<rect x=".5" y=".5" width="959" height="259" rx="19.5" fill="none" stroke="#232A45"/>
+<rect x="24" y="24" width="376" height="212" rx="14" fill="#080B17"/>
+<rect x="24" y="24" width="376" height="212" rx="14" fill="url(#grid)"/>
+<g transform="translate(24,24)" aria-hidden="true"><rect x="28" y="16" width="320" height="180" rx="12" fill="#0D1117" stroke="#22D3EE" stroke-opacity=".7"/>
+<path d="M28 28a12 12 0 0 1 12-12h296a12 12 0 0 1 12 12v14H28Z" fill="#232A45"/>
+<circle cx="46" cy="29" r="4" fill="#A78BFA"/><circle cx="60" cy="29" r="4" fill="#22D3EE"/><circle cx="74" cy="29" r="4" fill="#94A3B8"/><text x="48" y="70" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" fill="#22D3EE">$</text><text x="66" y="70" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" fill="#F8FAFC">automate</text><rect x="152" y="61" width="60" height="6" rx="3" fill="#A78BFA" fill-opacity=".5"/><text x="48" y="100" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" fill="#22D3EE">$</text><text x="66" y="100" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" fill="#F8FAFC">integrate</text><rect x="161" y="91" width="83" height="6" rx="3" fill="#A78BFA" fill-opacity=".5"/><text x="48" y="130" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" fill="#22D3EE">$</text><text x="66" y="130" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" fill="#F8FAFC">extract</text><rect x="143" y="121" width="106" height="6" rx="3" fill="#A78BFA" fill-opacity=".5"/><text x="48" y="160" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" fill="#22D3EE">$</text><text x="66" y="160" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15" fill="#F8FAFC">prototype</text><rect x="161" y="151" width="79" height="6" rx="3" fill="#A78BFA" fill-opacity=".5"/><rect x="48" y="170" width="9" height="16" fill="#22D3EE"><animate class="anim" attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></rect></g>
+<rect x="440" y="52" width="48" height="5" rx="2.5" fill="url(#g)"/>
+<text x="440" y="118" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="46" font-weight="800" fill="#F8FAFC">Engineering Lab</text>
+<text x="440" y="154" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="21" fill="#94A3B8">Experiments &amp; tooling</text>
+<rect x="440" y="184" width="104" height="34" rx="17" fill="none" stroke="#22D3EE" stroke-opacity=".7"/>
+<circle cx="458" cy="201" r="5" fill="#22D3EE"/>
+<text x="472" y="207" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="600" fill="#F8FAFC">Ongoing</text></svg>
